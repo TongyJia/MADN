@@ -15,7 +15,7 @@ You can train you model by run the main.py
 You can test on the trained model
  dehaze_80.pth is the pre-trained meta network
  model_82.pth is the pre-trained dehazing network
- #both of the meta network and the dehazing network needed when testing
+ 
   
 
 
