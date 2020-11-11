@@ -162,25 +162,4 @@ print('Test mPSNR: {:.4f}'.format(test_psnr))
 print('Test mSSIM: {:.4f}'.format(test_ssim))
 print('------------------------')
 
-#nyu11:Test mPSNR: 19.4531 Test mSSIM: 0.8526
-'''
-PSNR: 31.0965
-SSIM: 0.9789
-PSNR: 28.8358
-SSIM: 0.9833
-PSNR: 28.4731
-SSIM: 0.9605
-PSNR: 28.8159
-SSIM: 0.9191
-PSNR: 25.3847
-SSIM: 0.9443
-PSNR: 27.7459
-SSIM: 0.9584
-PSNR: 25.4351
-SSIM: 0.9165
-PSNR: 32.6147
-SSIM: 0.9815
-PSNR: 30.7850
-SSIM: 0.9800
-'''
-#0417 SIDM :Test mPSNR: 20.7088 Test mSSIM: 0.6376
+
