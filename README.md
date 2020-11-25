@@ -6,15 +6,12 @@
    　 torchvision
    　 skimage
    　 tqdm
-### How to train you model
-You can train you model by run the main.py
-   
    
    
 ### Use a pre-trained network for image dehazing:
 You can test on the trained model
  dehaze_80.pth is the pre-trained meta network
- model_82.pth is the pre-trained dehazing network
+ model.pth is the pre-trained dehazing network
  
   
 
