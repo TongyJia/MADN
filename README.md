@@ -6,7 +6,7 @@
      
    　 PyTorch>=1.0.1
      
-   　 torchvision
+   　 torchvision>=0.4.2
      
    　 skimage
      
