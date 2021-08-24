@@ -3,9 +3,13 @@
 ![image](https://github.com/TongyJia/MADN/blob/main/dehazed_net.jpg)
 ### Dependencies 
    　 Python3.6
+     
    　 PyTorch>=1.0.1
+     
    　 torchvision
+     
    　 skimage
+     
    　 tqdm
    
    
