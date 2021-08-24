@@ -13,10 +13,15 @@
    　 tqdm
    
    
-### Use a pre-trained network for image dehazing:
-You can test on the trained model:
+### Quick Start
+#### Testing:
+Clone this repo in environment that satisfies the prerequisites
+
+Run test.py using default hyper-parameter settings.
+
+(You can test on the trained model:
  dehaze_80.pth is the pre-trained meta network,
- model.pth is the pre-trained dehazing network.
+ model.pth is the pre-trained dehazing network.)
  
   
 
