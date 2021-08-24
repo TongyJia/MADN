@@ -20,7 +20,7 @@ tensor_normalizer = transforms.Normalize(mean=cnn_normalization_mean, std=cnn_no
 epsilon = 1e-5
 prepro=pre(0.5,0)
 #meta = torch.load("./model/dehaze_80.pth",map_location="cuda:0")#,map_location="cuda:0"  /home/omnisky/volume/3meta-opera
-meta = torch.load("./meta/dehaze_80.pth",map_location="cuda:0")#,map_location="cuda:0"
+meta = torch.load("./dehaze_80.pth",map_location="cuda:0")#,map_location="cuda:0"
 def preprocess_image(image, target_width=None):
     """输入 PIL.Image 对象，输出标准化后的四维 tensor"""
     if target_width:

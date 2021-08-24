@@ -15,7 +15,7 @@ import torch
 #from data_load_mix import get_dataset_deform
 import argparse
 from pregrocess import pre
-from data_utils0210 import  TestDatasetFromFolder1,TestDatasetFromFolder,TestDatasetFromFolder4
+from data_utils0210 import  TestDatasetFromFolder2,TestDatasetFromFolder,TestDatasetFromFolder4
 from tqdm import tqdm
 import time
 from skimage import transform
@@ -48,7 +48,7 @@ if args.mode == 'mix' or args.mode == 'yourdata':
         #/home/ubuntu/4meta-dual/DualResidualNetworks-master
         test_set = TestDatasetFromFolder4('/home/omnisky/4t/RESIDE/RTTS/RTTS')# /home/omnisky/4t/RESIDE/RTTS/RTTS    #/home/omnisky/4t/JTY/J/data/test-rrrr   ##./mytest_A  #/home/omnisky/4t/JTY/testdataset/mytest_A
         #test_set = TestDatasetFromFolder1('/home/omnisky/volume/0dehaze-project/GridDehazeNet-master/data/test/SOTS/indoor')#('/home/omnisky/volume/RESIDE/sots/outdoor')#nyu500 outdoor
-        #test_set = TestDatasetFromFolder2('/home/omnisky/volume/0dehaze-project/GridDehazeNet-master/data/test/SOTS/outdoor')
+        # test_set = TestDatasetFromFolder2('/home/omnisky/volume/0dehaze-project/GridDehazeNet-master/data/test/SOTS/outdoor')
         #test_set = TestDatasetFromFolder1('./result')
         #test_set = get_training_set(test_input_dir, test_target_dir, False)
         test_dataloader = DataLoader(dataset=test_set, num_workers=num_work, batch_size=1, shuffle=False, pin_memory=False)
@@ -67,7 +67,7 @@ print("meta have {} parameters in total".format(sum(x.numel() for x in meta.para
 
 model = TransformNet(32)#.to(device)
 
-model.load_state_dict(torch.load('./model_58.pth'))
+model.load_state_dict(torch.load('./model.pth'))
 
 print("net have {} parameters in total".format(sum(x.numel() for x in model.parameters())))
 model = model.cuda(0)
