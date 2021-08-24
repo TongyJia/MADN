@@ -1,7 +1,7 @@
 # MADN
-## Meta attention dehazing learning
+## Effective Meta-Attention Dehazing Networks for Vision-Based Outdoor Industrial Systems 
 ![image](https://github.com/TongyJia/MADN/blob/main/dehazed_net.jpg)
-### Dependencies 
+### Prerequisites 
    　 Python3.6
      
    　 PyTorch>=1.0.1
