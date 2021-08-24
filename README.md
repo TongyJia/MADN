@@ -23,6 +23,17 @@ Run test.py using default hyper-parameter settings.
  dehaze_80.pth is the pre-trained meta network,
  model.pth is the pre-trained dehazing network.)
  
+ ### Cite
+ If you use part of this code, please kindly cit
+ 
+ @article{jia2021effective,
+  title={Effective Meta-Attention Dehazing Networks for Vision-Based Outdoor Industrial Systems},
+  author={Jia, Tongyao and Li, Jiafeng and Zhuo, Li and Li, Guoqiang},
+  journal={IEEE Transactions on Industrial Informatics},
+  year={2021},
+  publisher={IEEE}
+}
+ 
   
 
 
