@@ -26,6 +26,7 @@ Run test.py using default hyper-parameter settings.
  ### Cite
  If you use part of this code, please kindly cit
  
+ ```
  @article{jia2021effective,
   title={Effective Meta-Attention Dehazing Networks for Vision-Based Outdoor Industrial Systems},
   author={Jia, Tongyao and Li, Jiafeng and Zhuo, Li and Li, Guoqiang},
@@ -33,6 +34,7 @@ Run test.py using default hyper-parameter settings.
   year={2021},
   publisher={IEEE}
 }
+```
  
   
 
