@@ -23,6 +23,10 @@ Run test.py using default hyper-parameter settings.
  dehaze_80.pth is the pre-trained meta network,
  model.pth is the pre-trained dehazing network.)
  
+#### Training:
+ 
+ Run main.py for training.
+ 
  ### Cite
  If you use part of this code, please kindly cit
  
