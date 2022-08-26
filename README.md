@@ -28,7 +28,7 @@ Run test.py using default hyper-parameter settings.
  Run main.py for training.
  
  ### Cite
- If you use part of this code, please kindly cit
+ If you use part of this code, please kindly cite
  
  ```
  @article{jia2021effective,
