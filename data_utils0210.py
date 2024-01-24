@@ -123,7 +123,7 @@ class TestDatasetFromFolder(Dataset):
         image_name = self.h_filenames[index].split('/')[-1]
         h_image = Image.open(self.h_filenames[index])
         s_image = Image.open(self.s_filenames[index])
-        return ToTensor()(h_image), ToTensor()(s_image)
+        return  image_name, ToTensor()(h_image), ToTensor()(s_image)
 
     def __len__(self):
         return len(self.h_filenames)
